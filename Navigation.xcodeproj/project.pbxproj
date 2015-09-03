@@ -14,6 +14,7 @@
 		EC7873461B982F9E0093BD0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7873451B982F9E0093BD0D /* Images.xcassets */; };
 		EC7873491B982F9E0093BD0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7873471B982F9E0093BD0D /* LaunchScreen.xib */; };
 		EC7873551B982F9E0093BD0D /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7873541B982F9E0093BD0D /* NavigationTests.swift */; };
+		EC7873661B984B0F0093BD0D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7873651B984B0F0093BD0D /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EC78734E1B982F9E0093BD0D /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7873531B982F9E0093BD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7873541B982F9E0093BD0D /* NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTests.swift; sourceTree = "<group>"; };
+		EC7873651B984B0F0093BD0D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				EC78733B1B982F9E0093BD0D /* AppDelegate.swift */,
 				EC7873401B982F9E0093BD0D /* ViewController.swift */,
+				EC7873651B984B0F0093BD0D /* TestViewController.swift */,
 				EC7873421B982F9E0093BD0D /* Main.storyboard */,
 				EC7873451B982F9E0093BD0D /* Images.xcassets */,
 				EC7873471B982F9E0093BD0D /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				EC7873411B982F9E0093BD0D /* ViewController.swift in Sources */,
 				EC78733C1B982F9E0093BD0D /* AppDelegate.swift in Sources */,
+				EC7873661B984B0F0093BD0D /* TestViewController.swift in Sources */,
 				EC78733F1B982F9E0093BD0D /* Navigation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
