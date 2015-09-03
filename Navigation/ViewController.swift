@@ -12,7 +12,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func button(sender: AnyObject) {
-        println("hello")
+        println("no hello")
+        
     }
     
     override func viewDidLoad() {
