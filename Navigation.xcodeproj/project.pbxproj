@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68AA8E351B9861E400368630 /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AA8E341B9861E400368630 /* test2ViewController.swift */; };
 		8DF725451B9855BA00C094EC /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF725441B9855BA00C094EC /* model.swift */; };
 		EC52BEAA1B985D780072217E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52BEA31B985D610072217E /* Alamofire.framework */; };
 		EC52BEAB1B985D780072217E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC52BEA31B985D610072217E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -80,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		68AA8E341B9861E400368630 /* test2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
 		8DF725441B9855BA00C094EC /* model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		EC52BE9B1B985D610072217E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		EC7873361B982F9E0093BD0D /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 			children = (
 				EC78733B1B982F9E0093BD0D /* AppDelegate.swift */,
 				EC7873401B982F9E0093BD0D /* ViewController.swift */,
+				68AA8E341B9861E400368630 /* test2ViewController.swift */,
 				EC7873651B984B0F0093BD0D /* TestViewController.swift */,
 				EC7873421B982F9E0093BD0D /* Main.storyboard */,
 				EC7873451B982F9E0093BD0D /* Images.xcassets */,
@@ -328,6 +331,7 @@
 				8DF725451B9855BA00C094EC /* model.swift in Sources */,
 				EC7873411B982F9E0093BD0D /* ViewController.swift in Sources */,
 				EC78733C1B982F9E0093BD0D /* AppDelegate.swift in Sources */,
+				68AA8E351B9861E400368630 /* test2ViewController.swift in Sources */,
 				EC7873661B984B0F0093BD0D /* TestViewController.swift in Sources */,
 				EC78733F1B982F9E0093BD0D /* Navigation.xcdatamodeld in Sources */,
 			);
