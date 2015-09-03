@@ -11,6 +11,7 @@
 		8D2C50651B9862B1004E2D52 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2C505E1B98629C004E2D52 /* Alamofire.framework */; };
 		8D2C50661B9862B1004E2D52 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2C505E1B98629C004E2D52 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8DF725451B9855BA00C094EC /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF725441B9855BA00C094EC /* model.swift */; };
+		EC52BEB11B9863720072217E /* test3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52BEB01B9863720072217E /* test3ViewController.swift */; };
 		EC78733C1B982F9E0093BD0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78733B1B982F9E0093BD0D /* AppDelegate.swift */; };
 		EC78733F1B982F9E0093BD0D /* Navigation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC78733D1B982F9E0093BD0D /* Navigation.xcdatamodeld */; };
 		EC7873411B982F9E0093BD0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7873401B982F9E0093BD0D /* ViewController.swift */; };
@@ -84,6 +85,7 @@
 		68AA8E341B9861E400368630 /* test2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
 		8D2C50561B98629C004E2D52 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		8DF725441B9855BA00C094EC /* model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		EC52BEB01B9863720072217E /* test3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test3ViewController.swift; sourceTree = "<group>"; };
 		EC7873361B982F9E0093BD0D /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC78733A1B982F9E0093BD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC78733B1B982F9E0093BD0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		EC78732D1B982F9E0093BD0D = {
 			isa = PBXGroup;
 			children = (
+				EC52BEB01B9863720072217E /* test3ViewController.swift */,
 				8D2C50561B98629C004E2D52 /* Alamofire.xcodeproj */,
 				EC7873381B982F9E0093BD0D /* Navigation */,
 				EC7873511B982F9E0093BD0D /* NavigationTests */,
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF725451B9855BA00C094EC /* model.swift in Sources */,
+				EC52BEB11B9863720072217E /* test3ViewController.swift in Sources */,
 				EC7873411B982F9E0093BD0D /* ViewController.swift in Sources */,
 				EC78733C1B982F9E0093BD0D /* AppDelegate.swift in Sources */,
 				68AA8E351B9861E400368630 /* test2ViewController.swift in Sources */,
