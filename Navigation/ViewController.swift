@@ -10,9 +10,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var counter = 0
 
-    @IBAction func button(sender: AnyObject) {
-        println("no iodhewioudfh hello")
+    @IBAction func button(sender: UIButton) {
+        counter++        
+        sender.setTitle(String(counter), forState: UIControlState.Normal)       
         
     }
     
@@ -25,6 +27,20 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowCounterSegue"
+        {
+            if let destinationVC = segue.destinationViewController as? OtherViewController{
+                destinationVC.numberToDisplay = counter
+            }
+        }
+    }
+    
 
 
 }

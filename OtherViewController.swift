@@ -1,18 +1,20 @@
 //
-//  TestViewController.swift
+//  OtherViewController.swift
 //  Navigation
 //
-//  Created by Messengers of Mutiny  on 03/09/15.
+//  Created by Messengers of Mutiny  on 05/09/15.
 //  Copyright (c) 2015 Kartik Jain. All rights reserved.
 //
 
 import UIKit
 
-class TestViewController: UIViewController {
-
+class OtherViewController: UIViewController {
+    
+    @IBOutlet weak var counterLabel: UILabel!
+    var numberToDisplay = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        counterLabel.text = "The counter was tapped \(numberToDisplay) times."
         // Do any additional setup after loading the view.
     }
 
